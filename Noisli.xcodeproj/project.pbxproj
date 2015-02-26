@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDCCBB51A9FDC8F00972A19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDCCBB41A9FDC8F00972A19 /* main.m */; };
+		EFDCCBB81A9FDC8F00972A19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDCCBB71A9FDC8F00972A19 /* AppDelegate.m */; };
+		EFDCCBBB1A9FDC8F00972A19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDCCBBA1A9FDC8F00972A19 /* ViewController.m */; };
+		EFDCCBBE1A9FDC8F00972A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDCCBBC1A9FDC8F00972A19 /* Main.storyboard */; };
+		EFDCCBC01A9FDC8F00972A19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDCCBBF1A9FDC8F00972A19 /* Images.xcassets */; };
+		EFDCCBC31A9FDC8F00972A19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDCCBC11A9FDC8F00972A19 /* LaunchScreen.xib */; };
+		EFDCCBCF1A9FDC8F00972A19 /* NoisliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDCCBCE1A9FDC8F00972A19 /* NoisliTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDCCBC91A9FDC8F00972A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDCCBA71A9FDC8F00972A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDCCBAE1A9FDC8F00972A19;
+			remoteInfo = Noisli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFDCCBAF1A9FDC8F00972A19 /* Noisli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noisli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDCCBB31A9FDC8F00972A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDCCBB41A9FDC8F00972A19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFDCCBB61A9FDC8F00972A19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFDCCBB71A9FDC8F00972A19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFDCCBB91A9FDC8F00972A19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFDCCBBA1A9FDC8F00972A19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFDCCBBD1A9FDC8F00972A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDCCBBF1A9FDC8F00972A19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFDCCBC21A9FDC8F00972A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFDCCBC81A9FDC8F00972A19 /* NoisliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoisliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDCCBCD1A9FDC8F00972A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDCCBCE1A9FDC8F00972A19 /* NoisliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoisliTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDCCBAC1A9FDC8F00972A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDCCBC51A9FDC8F00972A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDCCBA61A9FDC8F00972A19 = {
+			isa = PBXGroup;
+			children = (
+				EFDCCBB11A9FDC8F00972A19 /* Noisli */,
+				EFDCCBCB1A9FDC8F00972A19 /* NoisliTests */,
+				EFDCCBB01A9FDC8F00972A19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDCCBB01A9FDC8F00972A19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDCCBAF1A9FDC8F00972A19 /* Noisli.app */,
+				EFDCCBC81A9FDC8F00972A19 /* NoisliTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDCCBB11A9FDC8F00972A19 /* Noisli */ = {
+			isa = PBXGroup;
+			children = (
+				EFDCCBB61A9FDC8F00972A19 /* AppDelegate.h */,
+				EFDCCBB71A9FDC8F00972A19 /* AppDelegate.m */,
+				EFDCCBB91A9FDC8F00972A19 /* ViewController.h */,
+				EFDCCBBA1A9FDC8F00972A19 /* ViewController.m */,
+				EFDCCBBC1A9FDC8F00972A19 /* Main.storyboard */,
+				EFDCCBBF1A9FDC8F00972A19 /* Images.xcassets */,
+				EFDCCBC11A9FDC8F00972A19 /* LaunchScreen.xib */,
+				EFDCCBB21A9FDC8F00972A19 /* Supporting Files */,
+			);
+			path = Noisli;
+			sourceTree = "<group>";
+		};
+		EFDCCBB21A9FDC8F00972A19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDCCBB31A9FDC8F00972A19 /* Info.plist */,
+				EFDCCBB41A9FDC8F00972A19 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFDCCBCB1A9FDC8F00972A19 /* NoisliTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDCCBCE1A9FDC8F00972A19 /* NoisliTests.m */,
+				EFDCCBCC1A9FDC8F00972A19 /* Supporting Files */,
+			);
+			path = NoisliTests;
+			sourceTree = "<group>";
+		};
+		EFDCCBCC1A9FDC8F00972A19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDCCBCD1A9FDC8F00972A19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDCCBAE1A9FDC8F00972A19 /* Noisli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDCCBD21A9FDC8F00972A19 /* Build configuration list for PBXNativeTarget "Noisli" */;
+			buildPhases = (
+				EFDCCBAB1A9FDC8F00972A19 /* Sources */,
+				EFDCCBAC1A9FDC8F00972A19 /* Frameworks */,
+				EFDCCBAD1A9FDC8F00972A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Noisli;
+			productName = Noisli;
+			productReference = EFDCCBAF1A9FDC8F00972A19 /* Noisli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDCCBC71A9FDC8F00972A19 /* NoisliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDCCBD51A9FDC8F00972A19 /* Build configuration list for PBXNativeTarget "NoisliTests" */;
+			buildPhases = (
+				EFDCCBC41A9FDC8F00972A19 /* Sources */,
+				EFDCCBC51A9FDC8F00972A19 /* Frameworks */,
+				EFDCCBC61A9FDC8F00972A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDCCBCA1A9FDC8F00972A19 /* PBXTargetDependency */,
+			);
+			name = NoisliTests;
+			productName = NoisliTests;
+			productReference = EFDCCBC81A9FDC8F00972A19 /* NoisliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDCCBA71A9FDC8F00972A19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Amirkhan;
+				TargetAttributes = {
+					EFDCCBAE1A9FDC8F00972A19 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EFDCCBC71A9FDC8F00972A19 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EFDCCBAE1A9FDC8F00972A19;
+					};
+				};
+			};
+			buildConfigurationList = EFDCCBAA1A9FDC8F00972A19 /* Build configuration list for PBXProject "Noisli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDCCBA61A9FDC8F00972A19;
+			productRefGroup = EFDCCBB01A9FDC8F00972A19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDCCBAE1A9FDC8F00972A19 /* Noisli */,
+				EFDCCBC71A9FDC8F00972A19 /* NoisliTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDCCBAD1A9FDC8F00972A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDCCBBE1A9FDC8F00972A19 /* Main.storyboard in Resources */,
+				EFDCCBC31A9FDC8F00972A19 /* LaunchScreen.xib in Resources */,
+				EFDCCBC01A9FDC8F00972A19 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDCCBC61A9FDC8F00972A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDCCBAB1A9FDC8F00972A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDCCBBB1A9FDC8F00972A19 /* ViewController.m in Sources */,
+				EFDCCBB81A9FDC8F00972A19 /* AppDelegate.m in Sources */,
+				EFDCCBB51A9FDC8F00972A19 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDCCBC41A9FDC8F00972A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDCCBCF1A9FDC8F00972A19 /* NoisliTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDCCBCA1A9FDC8F00972A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDCCBAE1A9FDC8F00972A19 /* Noisli */;
+			targetProxy = EFDCCBC91A9FDC8F00972A19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFDCCBBC1A9FDC8F00972A19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDCCBBD1A9FDC8F00972A19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDCCBC11A9FDC8F00972A19 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDCCBC21A9FDC8F00972A19 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDCCBD01A9FDC8F00972A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFDCCBD11A9FDC8F00972A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDCCBD31A9FDC8F00972A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Noisli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFDCCBD41A9FDC8F00972A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Noisli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFDCCBD61A9FDC8F00972A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoisliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noisli.app/Noisli";
+			};
+			name = Debug;
+		};
+		EFDCCBD71A9FDC8F00972A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoisliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noisli.app/Noisli";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDCCBAA1A9FDC8F00972A19 /* Build configuration list for PBXProject "Noisli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDCCBD01A9FDC8F00972A19 /* Debug */,
+				EFDCCBD11A9FDC8F00972A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDCCBD21A9FDC8F00972A19 /* Build configuration list for PBXNativeTarget "Noisli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDCCBD31A9FDC8F00972A19 /* Debug */,
+				EFDCCBD41A9FDC8F00972A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFDCCBD51A9FDC8F00972A19 /* Build configuration list for PBXNativeTarget "NoisliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDCCBD61A9FDC8F00972A19 /* Debug */,
+				EFDCCBD71A9FDC8F00972A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDCCBA71A9FDC8F00972A19 /* Project object */;
+}
